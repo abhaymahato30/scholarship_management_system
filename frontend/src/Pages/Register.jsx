@@ -21,7 +21,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/student/register",
+          "https://scholarship-management-system-dy3i.vercel.app/api/v1/user/student/register",
           { firstName, lastName, email,phone, password },
           {
             withCredentials: true,
