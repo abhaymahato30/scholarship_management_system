@@ -20,8 +20,8 @@ const Register = () => {
     e.preventDefault();
     try {
       await axios
-        .post(
-          "https://scholarship-management-system-dy3i.vercel.app/api/v1/user/student/register",
+        .post(el.app
+          "https://scholarship-management-system-nine.vercel.app/api/v1/user/student/register",
           { firstName, lastName, email,phone, password },
           {
             withCredentials: true,
