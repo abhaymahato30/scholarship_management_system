@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = ({ title}) => {
   return (
@@ -6,8 +7,13 @@ const Hero = ({ title}) => {
       <div className="hero container">
         <div className="banner">
           <h1>{title}</h1>
-          <button>Apply for Scholarship</button>
+          <Link to={"/appointment"} >
+          <button className="Apply_btn ">Apply for Scholarship</button>
+
+            </Link>
+         
         </div>
+       
  
       </div>
     </>

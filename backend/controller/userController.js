@@ -61,6 +61,14 @@ export const login = catchAsyncErrors(async (req, res, next) => {
 });
 
 
+
+
+
+
+
+
+
+
 // logout function for student
 
 export const logoutstudent = catchAsyncErrors(async (req, res, next) => {

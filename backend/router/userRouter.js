@@ -18,8 +18,8 @@ import {
 const router = express.Router();
 
 router.post("/student/register", studentRegister);
-router.post("/student/login", login);
-router.post("/admin/login", login);
+router.post("/login", login);
+
 
 router.post("/admin/addnew",
    isAdminAuthenticated,
@@ -30,7 +30,7 @@ router.post("/admin/addnew",
 router.get("/student/me",  isStudentAuthenticated, getUserDetails);
 
 
-// router.get("/admin/me", isAdminAuthenticated, getUserDetails);
+router.get("/admin/me", isAdminAuthenticated, getUserDetails);
 router.get("/student/logout",   isStudentAuthenticated, logoutstudent);
 router.get("/admin/logout", isAdminAuthenticated, logoutAdmin);
 

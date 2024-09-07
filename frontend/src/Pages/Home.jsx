@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 const Home = () => {
   return (
     <>
-    <h2>this is home page</h2>
+
 
    <Hero
      title={
