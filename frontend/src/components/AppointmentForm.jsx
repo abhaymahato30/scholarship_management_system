@@ -44,7 +44,7 @@ const AppointmentForm = () => {
       
         formData.append("incomedocAvatar", incomedocAvatar);
         await axios
-          .post("https://scholarship-management-system-dy3i.vercel.app/api/v1/studentinfo/post", formData, {
+          .post("https://scholarship-management-system-nine.vercel.app/api/v1/studentinfo/post", formData, {
             withCredentials: true,
             headers: { "Content-Type": "multipart/form-data" },
           })
