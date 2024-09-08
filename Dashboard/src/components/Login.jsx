@@ -48,6 +48,15 @@ const Login = () => {
 
         <h1 className="form-title">Admin Please Login</h1>
        
+       use these credential as a admin
+       <h2>
+       use these credential as a admin
+
+       </h2>
+       <p>email:ak11@gmail.com
+        ,password:12345678
+
+       </p>
         <form onSubmit={handleLogin}>
           <input
             type="text"
