@@ -18,7 +18,7 @@ const Login = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/login",
+          "https://scholarship-management-system-nine.vercel.app/api/v1/user/login",
           { email, password, confirmPassword, role: "student" },
           {
             withCredentials: true,
