@@ -22,6 +22,10 @@ app.use(cors({
 }))
 
 // app.use(cors());
+app.get("/",(req,res) => {
+    res.send("This is backend")
+
+});
 
 app.use(cookieParser());
 app.use(express.json());
